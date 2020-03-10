@@ -1,7 +1,7 @@
 $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
-@import "../node_modules/bootswatch/yeti/_variables.scss";
-@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "../node_modules/bootswatch/yeti/_bootswatch.scss";
+@import "../node_modules/bootswatch/dist/yeti/_variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootswatch/dist/yeti/_bootswatch.scss";
 
 .footer {
   margin-top: 10px;
@@ -24,3 +24,4 @@ $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
 .text-green {
   color: #449414;
 }
+
