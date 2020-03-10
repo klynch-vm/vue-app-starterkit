@@ -1,23 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <FormBuilder v-bind:form="form" />
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <FormBuilder :form="form" />
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import { FormBuilder } from 'vue-formio';
+import { Component, Vue } from "vue-property-decorator";
+import { FormBuilder } from "vue-formio";
 
 @Component({
   components: {
-    FormBuilder,
+    FormBuilder
   },
   data: () => {
     return {
-      form: {},
+      form: {}
     };
-  },
+  }
 })
 export default class Home extends Vue {}
 </script>

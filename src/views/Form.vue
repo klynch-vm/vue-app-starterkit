@@ -5,13 +5,13 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import { Form } from 'vue-formio';
+import { Component, Vue } from "vue-property-decorator";
+import { Form } from "vue-formio";
 
 @Component({
   components: {
-    Form,
-  },
+    Form
+  }
 })
 export default class Home extends Vue {}
 </script>
