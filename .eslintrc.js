@@ -35,5 +35,6 @@ module.exports = {
         mocha: true
       }
     }
-  ]
+  ],
+  ignorePatterns: ["src/assets/", "vue-formio/", "formio.js/", "node_modules/"]
 };

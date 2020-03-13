@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "pretty": "prettier --check src/**"
+    "pretty": "prettier --write src/**/*.{json,js,ts,vue}"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
